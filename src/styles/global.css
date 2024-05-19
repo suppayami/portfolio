@@ -1,14 +1,14 @@
 /* Global styles */
 :root {
-    --background: #1e1e2e; 
+    --background: #1e1e2e;
     --background-light: #fdebf3;
     --button: #78c2ad;
     --text: #fdebf3;
-    --text-light: #1e1e2e; 
+    --text-light: #1e1e2e;
     --text-link: #78c2ad;
     --underline: #375a7f;
     --header: 'Pacifico', cursive;
-    --body: 'Josefin Sans', sans-serif; 
+    --body: 'Nunito', sans-serif;
 }
 
 html {
@@ -19,7 +19,6 @@ html {
 body {
     max-width: 540px;
     margin: 0 auto;
-    text-align: justify;
 }
 
 h1, h2 {
@@ -50,7 +49,7 @@ p {
 }
 
 small, li {
-    font-family: var(--body); 
+    font-family: var(--body);
 }
 
 /* Navigation Bar */
@@ -101,6 +100,13 @@ small, li {
     font-weight: 600;
     font-size: .85rem;
     padding: 0.3em 0.6em 0.2em;
+    hyphens: none;
+    margin: 0.25rem 0;
+}
+
+.badge.skill {
+    background-color: #5D5491;
+    display: inline-block;
 }
 
 .badge__list {
@@ -298,11 +304,11 @@ html.light {
 }
 
 .light .card__title {
-    color: var(--text-light); 
+    color: var(--text-light);
 }
 
 .light .card__txt {
-    color: var(--text-light); 
+    color: var(--text-light);
 }
 
 .light .btn {
@@ -376,3 +382,7 @@ html.light {
     }
 }
 
+.titles {
+    display: flex;
+    gap: 0.25rem;
+}
