@@ -386,3 +386,26 @@ html.light {
     display: flex;
     gap: 0.25rem;
 }
+
+.work-img {
+    object-fit: cover;
+    max-width: 100%;
+
+    text-align: center;
+}
+
+.work-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contents a {
+    color: var(--text-link);
+    text-decoration: none;
+}
+
+.contents a:hover {
+    text-decoration: underline var(--underline);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+}
